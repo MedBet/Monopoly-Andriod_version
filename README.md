@@ -41,7 +41,7 @@ A classic Monopoly board game for Android. **Play solo against smart AI opponent
 ```bash
 git clone https://github.com/MedBet/Monopoly-Andriod_version.git
 cd Monopoly-Andriod_version
-
+```
 <div id="russian-version"></div>
 ## 🇷🇺 Русская версия
 
@@ -79,3 +79,4 @@ cd Monopoly-Andriod_version
 ```bash
 git clone https://github.com/MedBet/Monopoly-Andriod_version.git
 cd Monopoly-Andriod_version
+```
