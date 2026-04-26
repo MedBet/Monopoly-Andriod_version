@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EndActivity"
+    android:background="@color/fon">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/lose"
+
+
+        />
+
+    <TextView
+        android:id="@+id/tv_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Конец"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:textSize="45sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tv_endres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textStyle="italic"
+        android:layout_marginTop="100dp"
+        android:textSize="32sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:text="Заново" />
+    <Button
+        android:id="@+id/btnstats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Статистика" />
+</LinearLayout>

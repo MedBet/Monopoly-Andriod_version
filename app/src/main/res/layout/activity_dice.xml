@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DiceActivity">
+
+    <TextView
+        android:id="@+id/tvRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imgKyb"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_weight="0"
+        android:layout_marginTop="115dp"
+        android:layout_marginStart="40dp"
+        app:srcCompat="@drawable/kebik"
+        app:layout_constraintTop_toBottomOf="@id/tvRes"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifKyb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dice"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/tvRes"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnKyb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="крутить"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/imgKyb"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Продолжить игру"
+        app:layout_constraintTop_toBottomOf="@id/imgKyb"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

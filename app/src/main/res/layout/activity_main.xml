@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fon"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_Player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Игрок 1"
+        android:textSize="22dp" />
+    <TextView
+        android:id="@+id/pl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+
+        android:textSize="22sp"
+        android:text="Игрок 2"
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_dengi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:textSize="22sp"
+        android:text="1000"
+        android:layout_marginTop="30dp"
+
+        />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/dengi"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="33dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/tv_dengi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="1000"
+        android:layout_marginStart="100dp"
+        android:textSize="22dp" />
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/dengi"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="3dp"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <ImageButton
+                android:id="@+id/cell1"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:src="@drawable/pic12"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                 />
+
+            <ImageButton
+                android:id="@+id/cell2"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:src="@drawable/pic9"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:layout_toEndOf="@+id/cell1"
+                />
+
+            <ImageButton
+                android:id="@+id/cell3"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_toEndOf="@+id/cell2"
+                android:src="@drawable/pic10"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                 />
+
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:textSize="20sp"
+                android:text="выпало у 2 игрока"
+                android:layout_marginTop="130dp"
+
+                />
+            <TextView
+                android:id="@+id/pl2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="160dp"
+                android:textSize="64sp"
+                android:text=""
+                android:layout_marginTop="190dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/cell4"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_toEndOf="@+id/cell3"
+                android:src="@drawable/pic11"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                 />
+
+            <ImageButton
+                android:id="@+id/cell5"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_toEndOf="@+id/cell4"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/pic13"
+                android:scaleType="centerCrop"
+
+                 />
+
+            <ImageButton
+                android:id="@+id/cell6"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_below="@+id/cell5"
+                android:src="@drawable/pic14"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:layout_toEndOf="@+id/cell4"
+                 />
+
+            <ImageButton
+                android:id="@+id/cell7"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_below="@+id/cell6"
+                android:src="@drawable/pic15"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:layout_toEndOf="@+id/cell4"
+                 />
+
+            <ImageButton
+                android:id="@+id/cell8"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_below="@+id/cell7"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/pic4"
+                android:scaleType="centerCrop"
+                android:layout_toEndOf="@+id/cell4"
+                 />
+
+            <ImageButton
+                android:id="@+id/cell9"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_below="@+id/cell8"
+                android:src="@drawable/pic1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:layout_toEndOf="@+id/cell4"
+                 />
+
+
+
+            <ImageButton
+                android:id="@+id/cell10"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_below="@+id/cell8"
+                android:src="@drawable/pic2"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:layout_toStartOf="@+id/cell9"
+                 />
+            <ImageButton
+                android:id="@+id/cell11"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_below="@+id/cell8"
+                android:src="@drawable/pic3"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:layout_toStartOf="@+id/cell10"
+                 />
+
+            <ImageButton
+                android:id="@+id/cell12"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_below="@+id/cell8"
+                android:src="@drawable/pic4"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:layout_toStartOf="@+id/cell11"
+                />
+
+            <ImageButton
+                android:id="@+id/cell13"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_below="@+id/cell8"
+                android:src="@drawable/pic5"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:layout_toStartOf="@+id/cell12"
+                 />
+
+            <ImageButton
+                android:id="@+id/cell14"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_above="@+id/cell13"
+                android:src="@drawable/pic6"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:layout_toStartOf="@+id/cell2"
+                 />
+            <ImageButton
+                android:id="@+id/cell15"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_above="@+id/cell14"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/pic7"
+                android:scaleType="centerCrop"
+                android:layout_toStartOf="@+id/cell2"
+                 />
+            <ImageButton
+                android:id="@+id/cell16"
+                android:layout_width="69dp"
+                android:layout_height="88dp"
+                android:layout_above="@+id/cell15"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/pic8"
+                android:scaleType="centerCrop"
+                android:layout_toStartOf="@+id/cell2"
+                />
+            <ImageView
+                android:id="@+id/player1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/cell8"
+                android:layout_alignEnd="@id/cell9"
+                android:background="@color/red"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/p1"/>
+            <ImageView
+                android:id="@+id/player2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/cell8"
+                android:layout_alignEnd="@id/cell9"
+                android:background="@color/blue"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/p2"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="520dp"
+        android:fillViewport="true"
+        android:scrollbarStyle="insideOverlay"
+        android:maxLines="100"
+        android:scrollbars="vertical"
+        android:background="@color/redal">
+
+        <TextView
+            android:id="@+id/tv_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="186dp"
+        android:fillViewport="true"
+        android:scrollbarStyle="insideOverlay"
+        android:maxLines="100"
+        android:scrollbars="vertical"
+        android:background="@color/blueal">
+
+        <TextView
+            android:id="@+id/tv_res2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_Kybik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="640dp"
+        android:text="бросить кубик" />
+
+
+</RelativeLayout>
