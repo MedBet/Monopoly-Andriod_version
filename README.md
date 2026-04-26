@@ -1,3 +1,4 @@
+[🇷🇺 Читать на русском](README.ru.md)
 # Monopoly - Android Edition
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
@@ -5,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 A fully functional Monopoly board game for Android devices. Play the classic property trading game against AI opponents.
-[🇷🇺 Русская версия](README.ru.md)
+
 ## ✨ Features
 
 - 🎲 **Classic Monopoly rules** – properties, houses/hotels, jail, Chance/Community Chest cards, auctions, and mortgaging.
