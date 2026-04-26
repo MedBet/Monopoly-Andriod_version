@@ -1,4 +1,4 @@
-
+[🇬🇧 Read in English](README.md)
 ### 🔽 Русская версия (Russian)
 
 ```markdown
